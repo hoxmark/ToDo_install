@@ -7,7 +7,10 @@ brew install brew-cask
 brew install git
 brew install git-extras
 brew install wget
-
+brew install repgrep 
+brew install diff-so-fancy
+brew install z
+brew install tig
 
 # cask apps
 brew cask install sublime-text3
