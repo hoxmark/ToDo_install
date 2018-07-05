@@ -1,6 +1,9 @@
 #!/bin/sh
 
+#install brew   
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
+#TODO snippet tool. latex 
 
 # homebrew apps
 brew install brew-cask
@@ -11,6 +14,10 @@ brew install repgrep
 brew install diff-so-fancy
 brew install z
 brew install tig
+brew install zsh zsh-completions
+brew install node
+brew install m-cli
+brew install youtube-dl
 
 # cask apps
 brew cask install sublime-text3
@@ -35,3 +42,6 @@ brew cask install imageoptim
 brew cask install divvy
 brew cask install visual-studio-code
 
+
+#this is not perfect 
+brew install autojump 
