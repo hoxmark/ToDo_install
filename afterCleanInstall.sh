@@ -6,6 +6,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 #TODO snippet tool. latex 
 
 # homebrew apps
+brew install python3
 brew install brew-cask
 brew install git
 brew install git-extras
